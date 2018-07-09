@@ -11,8 +11,6 @@
 function initialize() {
     console.log('Initialzie');
 
-    document.body.requestFullscreen();
-
 }
 
 initialize();
