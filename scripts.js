@@ -11,9 +11,8 @@
 function initialize() {
     console.log('Initialzie');
 
-    window.addEventListener('touchmove', function(e) {
-        e.preventDefault();
-    })
+    document.body.requestFullscreen();
+
 }
 
 initialize();
